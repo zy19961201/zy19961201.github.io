@@ -1,0 +1,391 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>html从零开始4——html必知必会 | 张禹的个人博客</title><meta name="author" content="张禹,13640015624@163.com"><meta name="copyright" content="张禹"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="html总结">
+<meta property="og:type" content="article">
+<meta property="og:title" content="html从零开始4——html必知必会">
+<meta property="og:url" content="http://example.com/2022/12/05/html%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B4%E2%80%94%E2%80%94html%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A/index.html">
+<meta property="og:site_name" content="张禹的个人博客">
+<meta property="og:description" content="html总结">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://images.pexels.com/photos/270404/pexels-photo-270404.jpeg?auto=compress&cs=tinysrgb&w=800">
+<meta property="article:published_time" content="2022-12-04T16:38:00.000Z">
+<meta property="article:modified_time" content="2022-12-04T16:48:42.888Z">
+<meta property="article:author" content="张禹">
+<meta property="article:tag" content="html">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://images.pexels.com/photos/270404/pexels-photo-270404.jpeg?auto=compress&cs=tinysrgb&w=800"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://example.com/2022/12/05/html%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B4%E2%80%94%E2%80%94html%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//fonts.googleapis.com" crossorigin=""/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web&amp;display=swap" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '天',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'html从零开始4——html必知必会',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2022-12-05 00:48:42'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><meta name="generator" content="Hexo 5.4.2"></head><body><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">4</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">1</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">1</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 清单</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/photo/"><i class="fa-fw fas fa-images"></i><span> 照片</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友情链接</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://images.pexels.com/photos/270404/pexels-photo-270404.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=800')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">张禹的个人博客</a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 清单</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/photo/"><i class="fa-fw fas fa-images"></i><span> 照片</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友情链接</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">html从零开始4——html必知必会</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2022-12-04T16:38:00.000Z" title="发表于 2022-12-05 00:38:00">2022-12-05</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2022-12-04T16:48:42.888Z" title="更新于 2022-12-05 00:48:42">2022-12-05</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80/">前端基础</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="html从零开始4——html必知必会"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h1 id="请说明html布局元素的分类有哪些？描述每种布局元素的应用场景？"><a href="#请说明html布局元素的分类有哪些？描述每种布局元素的应用场景？" class="headerlink" title="请说明html布局元素的分类有哪些？描述每种布局元素的应用场景？"></a>请说明html布局元素的分类有哪些？描述每种布局元素的应用场景？</h1><h2 id="分类"><a href="#分类" class="headerlink" title="分类"></a>分类</h2><p>(1)行内元素</p>
+<p>span,a,b,strong,i,em,br,ins,u,del,s,inut</p>
+<ul>
+<li><p>本身属性为 display:inline;</p>
+</li>
+<li><p>不可以直接设置宽度和高度，宽度和高度是由本身内容大小决定的(文字，图片等)</p>
+</li>
+<li><p>可以直接设置内外边距的左右值</p>
+</li>
+<li><p>只能容纳文本或者其他行内元素，不能嵌套块级元素</p>
+</li>
+</ul>
+<p>(2)块状元素</p>
+<p>div,h1-h6,hr,menu,ol,ul,dl,table,p,form</p>
+<ul>
+<li><p>本身属性为 display:block;</p>
+</li>
+<li><p>可以直接控制宽度高度，padding，margin等</p>
+</li>
+<li><p>不设置宽度时，块级元素宽度是它父级元素内容的宽度</p>
+</li>
+<li><p>不设置高度时，块级元素高度是它本身内容的高度</p>
+</li>
+</ul>
+<p>(3)行内块元素</p>
+<p>img, input, textarea </p>
+<ul>
+<li><p>本身属性为 display:inline-block</p>
+</li>
+<li><p>不自动换行</p>
+</li>
+<li><p>能够自动识别 width 和 height, line-height, padding, margin</p>
+</li>
+</ul>
+<h2 id="应用场景"><a href="#应用场景" class="headerlink" title="应用场景"></a>应用场景</h2><ul>
+<li><p>行内元素：用于不指定宽高，宽高由内容指定；</p>
+</li>
+<li><p>块状元素：用于指定宽高，标签占满一行；</p>
+</li>
+<li><p>行内块元素：用于指定元素宽高，不占满一行</p>
+</li>
+</ul>
+<h1 id="html标签b和strong的区别？"><a href="#html标签b和strong的区别？" class="headerlink" title="html标签b和strong的区别？"></a>html标签b和strong的区别？</h1><p>两者在网页中的显示效果一样，但是实际目的不同</p>
+<p>&lt;b&gt;为了加粗而加粗，&lt;strong&gt;为了表明重点而加粗</p>
+<ul>
+<li><p>&lt;b&gt;这个标签对应bold，文本加粗，仅仅是为了加粗显示文本，是一种样式/风格需求；</p>
+</li>
+<li><p>&lt;strong&gt;这个标签意思是加强，表示文本比较重要，提醒读者/终端注意，为了达到这个目的，浏览器等终端将其加粗显示。</p>
+</li>
+</ul>
+<h1 id="什么是语义化？你平常怎么做来保证语义化？说说你了解的html5语义化标签？"><a href="#什么是语义化？你平常怎么做来保证语义化？说说你了解的html5语义化标签？" class="headerlink" title="什么是语义化？你平常怎么做来保证语义化？说说你了解的html5语义化标签？"></a>什么是语义化？你平常怎么做来保证语义化？说说你了解的html5语义化标签？</h1><h2 id="HTML语义化"><a href="#HTML语义化" class="headerlink" title="HTML语义化"></a>HTML语义化</h2><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">1. 很多时候我们写html，为了方便都会直接使用div和span等标签，再通过class来描述其具体样式来确定哪部分为导</span><br><span class="line"></span><br><span class="line">航，哪部分为头部和底部等。</span><br><span class="line"></span><br><span class="line">2. class命名规范没有统一的标准，导致很多时候整体网站的结构部明确。</span><br><span class="line"></span><br><span class="line">3. html5出现后，添加了关于页面布局结构的新标签，在html书写过程中，根据不同内容使用合适的标签进行开发，即</span><br><span class="line"></span><br><span class="line">为语义化。</span><br><span class="line"></span><br><span class="line">4. 在编程中，语义一般指的是一段代码的含义(这个html元素有什么作用，扮演了什么角色)。</span><br><span class="line"></span><br><span class="line">5. html语义元素清楚地向浏览器和开发者描述其意义，例如<span class="tag">&lt;<span class="name">form</span>&gt;</span>、<span class="tag">&lt;<span class="name">table</span>&gt;</span>、<span class="tag">&lt;<span class="name">img</span>&gt;</span>等。</span><br></pre></td></tr></table></figure>
+
+<h2 id="html语义化优点"><a href="#html语义化优点" class="headerlink" title="html语义化优点"></a>html语义化优点</h2><ul>
+<li><p>便于其他开发者阅读代码，通过不同的标签明白每个模块的作用有何区别。</p>
+</li>
+<li><p>更好的用户体验，结构明确，语义清晰的页面在样式(css)加载前也有较为明确的结构。例如img这一类的，在图片无法加载的情况下有alt标签告知用户此处图片的具体内容。</p>
+</li>
+<li><p>利于SEO，语义化便于搜索引擎爬虫理解，和搜索引擎建立良好的沟通，让爬虫爬取更多关键有效的信息。</p>
+</li>
+<li><p>方便其他设备阅读(屏幕阅读器，盲人设备和移动设备)。</p>
+</li>
+</ul>
+<h2 id="html5新增语义元素"><a href="#html5新增语义元素" class="headerlink" title="html5新增语义元素"></a>html5新增语义元素</h2><ul>
+<li>&lt;header&gt;</li>
+<li>&lt;nav&gt;</li>
+<li>&lt;aside&gt;</li>
+<li>&lt;section&gt;</li>
+<li>&lt;article&gt;</li>
+<li>&lt;footer&gt;</li>
+<li>&lt;details&gt;</li>
+<li>&lt;figcaption&gt;</li>
+<li>&lt;figure&gt;</li>
+<li>&lt;main&gt;</li>
+<li>&lt;mark&gt;</li>
+<li>&lt;summary&gt;</li>
+<li>&lt;time&gt;</li>
+<li>&lt;audio&gt;</li>
+<li>&lt;video&gt;</li>
+</ul>
+<h2 id="如何语义化"><a href="#如何语义化" class="headerlink" title="如何语义化"></a>如何语义化</h2><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line">1. 一般网站分为头部(header)，导航(nav)，文章(article,section)，侧栏(aside)，底部(footer)等，根据不</span><br><span class="line"></span><br><span class="line">同的部位，使用不同的标签进行书写；</span><br><span class="line"></span><br><span class="line">2. 多使用表示具体元素的作用或意义的标签：</span><br><span class="line"></span><br><span class="line">a,abbr,address,audio,video,blockquote,caption,code,datalist,del,detail,ol,ul,figure,figur</span><br><span class="line"></span><br><span class="line">ation,img,input,mark,p等；</span><br><span class="line"></span><br><span class="line">3. 尽可能减少使用无语义的div和span；</span><br><span class="line"></span><br><span class="line">4. 在语义不明时，使用p替换div，因为p默认有上下间距，对兼容特殊终端有利；</span><br><span class="line"></span><br><span class="line">5. 不要使用纯样式标签，如b,font,u等，改用css设置；</span><br><span class="line"></span><br><span class="line">6. 使用表格，标题用caption,表头要用thead，主体用tbody,尾部用tfoot,表头(th)一般和单元格(td)区分开;</span><br><span class="line"></span><br><span class="line">7. 表单域用fieldset标签包起来，并用legend标签说明表单的用途；</span><br><span class="line"></span><br><span class="line">8. 每个input标签设置id属性，在label标签中通过for=&quot;someId&quot;使得文本和对应的input相关联</span><br></pre></td></tr></table></figure>
+
+<h1 id="html5有哪些新特性？如何处理html5新标签的浏览器兼容问题？如何区分html和html5？"><a href="#html5有哪些新特性？如何处理html5新标签的浏览器兼容问题？如何区分html和html5？" class="headerlink" title="html5有哪些新特性？如何处理html5新标签的浏览器兼容问题？如何区分html和html5？"></a>html5有哪些新特性？如何处理html5新标签的浏览器兼容问题？如何区分html和html5？</h1><h2 id="html5新特性"><a href="#html5新特性" class="headerlink" title="html5新特性"></a>html5新特性</h2><ol>
+<li><p>拖拽释放(Drag and drop)API</p>
+</li>
+<li><p>语义化更好的内容标签(header,nav,footer,aside,article,section)</p>
+</li>
+<li><p>音频，视频API(audio,video)</p>
+</li>
+<li><p>画布API(Canvas)</p>
+</li>
+<li><p>地理API(Geolocation)API</p>
+</li>
+<li><p>本地离线存储localStorage长期存储数据，浏览器关闭之后数据不丢失</p>
+</li>
+<li><p>sessionStorage的数据在浏览器关闭之后自动删除</p>
+</li>
+<li><p>表单控件calendar,date,time,email,url,search</p>
+</li>
+<li><p>新的技术webworker,websocket,Geolocation</p>
+<h2 id="html5兼容性问题处理"><a href="#html5兼容性问题处理" class="headerlink" title="html5兼容性问题处理"></a>html5兼容性问题处理</h2></li>
+<li><p>使用DOM操作系统来添加这些标签</p>
+<p>通过这种方法，很多新标签，每个都要这样生产的话太麻烦。</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">&quot;en&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">&quot;UTF-8&quot;</span> /&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">&quot;X-UA-Compatible&quot;</span> <span class="attr">content</span>=<span class="string">&quot;IE=edge&quot;</span> /&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;viewport&quot;</span> <span class="attr">content</span>=<span class="string">&quot;width=device-width, initial-scale=1.0&quot;</span> /&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>Document<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">      <span class="variable language_">document</span>.<span class="title function_">createElement</span>(<span class="string">&quot;header&quot;</span>);</span></span><br><span class="line"><span class="language-javascript">      <span class="variable language_">document</span>.<span class="title function_">createElement</span>(<span class="string">&quot;footer&quot;</span>);</span></span><br><span class="line"><span class="language-javascript">    </span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="language-css"></span></span><br><span class="line"><span class="language-css">      <span class="selector-tag">header</span>,</span></span><br><span class="line"><span class="language-css">      <span class="selector-tag">footer</span> &#123;</span></span><br><span class="line"><span class="language-css">        <span class="attribute">display</span>: block;</span></span><br><span class="line"><span class="language-css">        <span class="attribute">width</span>: <span class="number">50px</span>;</span></span><br><span class="line"><span class="language-css">        <span class="attribute">height</span>: <span class="number">50px</span>;</span></span><br><span class="line"><span class="language-css">        <span class="attribute">background-color</span>: red;</span></span><br><span class="line"><span class="language-css">      &#125;</span></span><br><span class="line"><span class="language-css">    </span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">header</span> <span class="attr">id</span>=<span class="string">&quot;header&quot;</span>&gt;</span>header<span class="tag">&lt;/<span class="name">header</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">footer</span> <span class="attr">id</span>=<span class="string">&quot;footer&quot;</span>&gt;</span>footer<span class="tag">&lt;/<span class="name">footer</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br><span class="line"></span><br></pre></td></tr></table></figure></li>
+<li><p>使用封装好的js库</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">&lt;!-- 引入即可 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;js/html5shiv.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure></li>
+</ol>
+<h2 id="如何区分html和html5"><a href="#如何区分html和html5" class="headerlink" title="如何区分html和html5"></a>如何区分html和html5</h2><ol>
+<li><p>文档声明</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">&lt;!-- html文档声明 --&gt;</span></span><br><span class="line"><span class="meta">&lt;!DOCTYPE <span class="keyword">html</span> <span class="keyword">PUBLIC</span> <span class="string">&quot;-//W3C//DTD HTML 4.01 Transitional//EN&quot;</span> <span class="string">&quot;http://www.w3.org/TR/html4/loose.dtd&quot;</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="comment">&lt;!-- html5文档声明 --&gt;</span></span><br><span class="line"><span class="meta">&lt;!DOCTYPE <span class="keyword">html</span>&gt;</span></span><br><span class="line"></span><br></pre></td></tr></table></figure></li>
+<li><p>结构语义</p>
+<ul>
+<li><p>html：没有体现结构语义化的标签，通常都是&lt;div id=”header”&gt;这样来命名的；</p>
+</li>
+<li><p>html5：在语义上有很大优势，采用新的html5结构语义标签。</p>
+</li>
+</ul>
+</li>
+</ol>
+<h1 id="a标签默认事件被禁止之后做了什么才实现了跳转？"><a href="#a标签默认事件被禁止之后做了什么才实现了跳转？" class="headerlink" title="a标签默认事件被禁止之后做了什么才实现了跳转？"></a>a标签默认事件被禁止之后做了什么才实现了跳转？</h1><h2 id="默认事件禁止之后实现跳转的方式"><a href="#默认事件禁止之后实现跳转的方式" class="headerlink" title="默认事件禁止之后实现跳转的方式"></a>默认事件禁止之后实现跳转的方式</h2><ul>
+<li><p>通过location.href实现跳转</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> domArr = <span class="variable language_">document</span>.<span class="title function_">getElementsByTagName</span>(<span class="string">&#x27;a&#x27;</span>)</span><br><span class="line">[...domArr].<span class="title function_">forEach</span>(<span class="function"><span class="params">item</span>=&gt;</span>&#123;</span><br><span class="line">    item.<span class="title function_">addEventListener</span>(<span class="string">&#x27;click&#x27;</span>,<span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">        location.<span class="property">href</span> = <span class="variable language_">this</span>.<span class="property">href</span></span><br><span class="line">    &#125;)</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure></li>
+</ul>
+<h1 id="网站SEO怎么处理？"><a href="#网站SEO怎么处理？" class="headerlink" title="网站SEO怎么处理？"></a>网站SEO怎么处理？</h1><h2 id="搜索引擎工作原理"><a href="#搜索引擎工作原理" class="headerlink" title="搜索引擎工作原理"></a>搜索引擎工作原理</h2><blockquote>
+<p>在搜索引擎网站的后台会有一个非常庞大的数据库，里面存储了海量的关键词，而每个关键词又对应着很多网址，这些网址是被称之为“搜索引擎蜘蛛”或“网络爬虫”。</p>
+<p>程序从茫茫的互联网上一点一点下载收集而来的。随着各种各样网站的出现，这些勤劳的“蜘蛛”每天在互联网上爬行，从一个链接到另一个链接，下载其中的内容，进行分析提炼，找到其中的关键词，如果“蜘蛛”认为关键词在数据库中没有而对用户是有用的便存入后台的数据库中。反之，如果“蜘蛛”认为是垃圾信息或重复信息，就舍弃不要，继续爬行，寻找最新的、有用的信息保存起来提供用户搜索。当用户搜索时，就能检索出与关键字相关的网址显示给访客。</p>
+<p>一个关键词对用多个网址，因此就出现了排序的问题,相应的当与关键词最吻合的网址就会排在前面了。在“蜘蛛”抓取网页内容，提炼关键词的这个过程中,就存在一一个问题: “蜘蛛” 能否看懂。如果网站内容是flash和js等，那么它是看不懂的，会犯迷糊，即使关键字再贴切也没用。相应的，如果网站内容可以被搜索引擎能识别，那么搜索引擎就会提高该网站的权重，增加对该网站的友好度。这样一个过程我们称之为SEO。</p>
+</blockquote>
+<h2 id="前端SEO规范简洁版"><a href="#前端SEO规范简洁版" class="headerlink" title="前端SEO规范简洁版"></a>前端SEO规范简洁版</h2><ul>
+<li><p>合理的title,description,keywords：搜索对这三项的权重逐渐减小，title强调重点即可；description把页面内容高度概括，不可过分堆砌关键词；keywords列举出重要关键词。</p>
+</li>
+<li><p>语义化得到html标签</p>
+</li>
+<li><p>非装饰性的图片必须加alt</p>
+</li>
+<li><p>让重要的内容放在html最前面，优先加载。搜索引擎抓取html顺序是从上到下，保证重要内容一定被抓取</p>
+</li>
+<li><p>每个页面只出现一个h1标签</p>
+</li>
+<li><p>页面尽量不要做成flash，图片，视频，因为搜索引擎抓取不到</p>
+</li>
+<li><p>少用iframe，iframe抓取不到</p>
+</li>
+<li><p>页面尽量扁平化，层级太深也不利于抓取</p>
+</li>
+<li><p>异步加载内容(ajax)搜索引擎也抓取不到，重要信息选择直接输出，有利于用户体验和seo优化</p>
+</li>
+<li><p>向各大搜索引擎登录入口提交尚未收录站点</p>
+</li>
+<li><p>提高网站速度：网站速速是搜索引擎排序的一个重要指标</p>
+</li>
+<li><p>做好404页面，不仅是为了提高蜘蛛体验，也是为了更好的用户体验</p>
+</li>
+</ul>
+<h1 id="meta元素都有什么？"><a href="#meta元素都有什么？" class="headerlink" title="meta元素都有什么？"></a>meta元素都有什么？</h1><h2 id="元数据"><a href="#元数据" class="headerlink" title="元数据"></a>元数据</h2><blockquote>
+<p>元数据(metadata)：用来构建html文档的基本结构以及就如何处理文档向浏览器提供信息和指标，它们本身不是文档内容，但提供了关于后面文档内容的信息。如title，base，meta都是元数据元素。</p>
+</blockquote>
+<h2 id="meta元素"><a href="#meta元素" class="headerlink" title="meta元素"></a>meta元素</h2><blockquote>
+<p>meta元素可提供有关页面的元信息(meta-information)，比如针对搜索引擎和更新频度的描述和关键词。</p>
+<p>meta元素可以定义文档的各种元数据，提供各种文档信息，通俗点说就是可以理解为提供了关于网站的各种信息。html文档中可以包含多个meta元素，每个meta元素只能用于一种用途，如果想定义多个文档信息，则需要在head标签中添加多个meta元素。</p>
+</blockquote>
+<h2 id="meta元素四大属性"><a href="#meta元素四大属性" class="headerlink" title="meta元素四大属性"></a>meta元素四大属性</h2><ul>
+<li>charset：声明页面的字符编码，常用的值UTF-8(Unicode字符编码)、ISO-8859-1(拉丁字母表的字符编码)</li>
+<li>content：通常配合name或http-equiv使用，能够给这两个属性提供一个值</li>
+<li>http-equiv：用做http头部的某些作用，通过定义该属性可以改变服务器和用户代理的行为</li>
+<li>name：用于定义页面的元数据，它不能与http-equiv、charset并存，通常配合content一起使用</li>
+</ul>
+<h2 id="meta元素的使用"><a href="#meta元素的使用" class="headerlink" title="meta元素的使用"></a>meta元素的使用</h2><ol>
+<li><p>name 指定名/值对定义元数据</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;参数&quot;</span> <span class="attr">content</span>=<span class="string">&quot;具体描述信息&quot;</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"> <span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">title</span>&gt;</span>示例<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;keywords&quot;</span> <span class="attr">content</span>=<span class="string">&quot;描述网站内容的关键词，以逗号隔开，用于SEO搜索&quot;</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;application name&quot;</span> <span class="attr">content</span>=<span class="string">&quot;当前页所属Web应用系统的名称&quot;</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;description&quot;</span> <span class="attr">content</span>=<span class="string">&quot;当前页的说明&quot;</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;author&quot;</span> <span class="attr">content</span>=<span class="string">&quot;当前页的作者名&quot;</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;copyright&quot;</span> <span class="attr">content</span>=<span class="string">&quot;版权信息&quot;</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;renderer&quot;</span> <span class="attr">content</span>=<span class="string">&quot;renderer是为双核浏览器准备的，用于指定双核浏览器默认以何种方式渲染页面&quot;</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;viewreport&quot;</span> <span class="attr">content</span>=<span class="string">&quot;它提供有关视口初始大小的提示，仅供移动设备使用&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br></pre></td></tr></table></figure></li>
+<li><p>charset声明字符编码</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">&lt;!-- HTML5 推荐方式 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">&quot;utf-8&quot;</span>&gt;</span>  </span><br><span class="line"> <span class="comment">&lt;!-- 旧的HTML --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">&quot;content-Type&quot;</span> <span class="attr">content</span>=<span class="string">&quot;text/html;charset=utf-8&quot;</span>&gt;</span></span><br></pre></td></tr></table></figure></li>
+<li><p>http-equiv模拟http标头字段</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">&quot;参数&quot;</span> <span class="attr">content</span>=<span class="string">&quot;具体的描述&quot;</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- content-Type 声明网页字符编码 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">&quot;content-Type&quot;</span> <span class="attr">content</span>=<span class="string">&quot;text/html charset=UTF-8&quot;</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- refresh 指定一个时间间隔(以秒为单位),在此时间过去之后从服务器重新载入当前页面,也可以另外指定一个页面. --&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- 2秒后在当前页跳转到百度 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">&quot;refresh&quot;</span> <span class="attr">content</span>=<span class="string">&quot;2;URL=http://www.baidu.com&quot;</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- X-UA-Compatible 浏览器采取何种版本渲染当前页面 --&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- 指定IE和Chrome使用最新版本渲染当前页面 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">&quot;X-UA-Compatible&quot;</span> <span class="attr">content</span>=<span class="string">&quot;IE=edge,chrome=1&quot;</span>&gt;</span> </span><br><span class="line"><span class="comment">&lt;!-- catch-control 用于指定所有缓存机制在整个请求/响应链中必须服从的指令 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">&quot;cache-control&quot;</span> <span class="attr">content</span>=<span class="string">&quot;no-cache&quot;</span>&gt;</span></span><br></pre></td></tr></table></figure></li>
+<li><p>常用meta属性</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">&lt;!-- 声明文档使用的字符编码 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">&#x27;utf-8&#x27;</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- 优先使用 IE 最新版本和 Chrome --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">&quot;X-UA-Compatible&quot;</span> <span class="attr">content</span>=<span class="string">&quot;IE=edge,chrome=1&quot;</span>/&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- 页面描述 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;description&quot;</span> <span class="attr">content</span>=<span class="string">&quot;不超过150个字符&quot;</span>/&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- 页面关键词 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;keywords&quot;</span> <span class="attr">content</span>=<span class="string">&quot;&quot;</span>/&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- 网页作者 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;author&quot;</span> <span class="attr">content</span>=<span class="string">&quot;name, email@gmail.com&quot;</span>/&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- 搜索引擎抓取 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;robots&quot;</span> <span class="attr">content</span>=<span class="string">&quot;index,follow&quot;</span>/&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- 为移动设备添加 viewport --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;viewport&quot;</span> <span class="attr">content</span>=<span class="string">&quot;initial-scale=1, maximum-scale=3, minimum-scale=1, user-scalable=no&quot;</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- `width=device-width` 会导致 iPhone 5 添加到主屏后以 WebApp 全屏模式打开页面时出现黑边 http://bigc.at/ios-webapp-viewport-meta.orz --&gt;</span></span><br><span class="line">   </span><br><span class="line"><span class="comment">&lt;!-- iOS 设备 begin --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;apple-mobile-web-app-title&quot;</span> <span class="attr">content</span>=<span class="string">&quot;标题&quot;</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- 添加到主屏后的标题（iOS 6 新增） --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;apple-mobile-web-app-capable&quot;</span> <span class="attr">content</span>=<span class="string">&quot;yes&quot;</span>/&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- 是否启用 WebApp 全屏模式，删除苹果默认的工具栏和菜单栏 --&gt;</span></span><br><span class="line">   </span><br><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;apple-itunes-app&quot;</span> <span class="attr">content</span>=<span class="string">&quot;app-id=myAppStoreID, affiliate-data=myAffiliateData, app-argument=myURL&quot;</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- 添加智能 App 广告条 Smart App Banner（iOS 6+ Safari） --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;apple-mobile-web-app-status-bar-style&quot;</span> <span class="attr">content</span>=<span class="string">&quot;black&quot;</span>/&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- 设置苹果工具栏颜色 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;format-detection&quot;</span> <span class="attr">content</span>=<span class="string">&quot;telphone=no, email=no&quot;</span>/&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- 忽略页面中的数字识别为电话，忽略email识别 --&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- 启用360浏览器的极速模式(webkit) --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;renderer&quot;</span> <span class="attr">content</span>=<span class="string">&quot;webkit&quot;</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- 避免IE使用兼容模式 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">&quot;X-UA-Compatible&quot;</span> <span class="attr">content</span>=<span class="string">&quot;IE=edge&quot;</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- 不让百度转码 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">&quot;Cache-Control&quot;</span> <span class="attr">content</span>=<span class="string">&quot;no-siteapp&quot;</span> /&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- 针对手持设备优化，主要是针对一些老的不识别viewport的浏览器，比如黑莓 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;HandheldFriendly&quot;</span> <span class="attr">content</span>=<span class="string">&quot;true&quot;</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- 微软的老式浏览器 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;MobileOptimized&quot;</span> <span class="attr">content</span>=<span class="string">&quot;320&quot;</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- uc强制竖屏 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;screen-orientation&quot;</span> <span class="attr">content</span>=<span class="string">&quot;portrait&quot;</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- QQ强制竖屏 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;x5-orientation&quot;</span> <span class="attr">content</span>=<span class="string">&quot;portrait&quot;</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- UC强制全屏 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;full-screen&quot;</span> <span class="attr">content</span>=<span class="string">&quot;yes&quot;</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- QQ强制全屏 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;x5-fullscreen&quot;</span> <span class="attr">content</span>=<span class="string">&quot;true&quot;</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- UC应用模式 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;browsermode&quot;</span> <span class="attr">content</span>=<span class="string">&quot;application&quot;</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- QQ应用模式 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;x5-page-mode&quot;</span> <span class="attr">content</span>=<span class="string">&quot;app&quot;</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- windows phone 点击无高光 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;msapplication-tap-highlight&quot;</span> <span class="attr">content</span>=<span class="string">&quot;no&quot;</span>&gt;</span></span><br><span class="line">  <span class="comment">&lt;!-- iOS 设备 end --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;msapplication-TileColor&quot;</span> <span class="attr">content</span>=<span class="string">&quot;#000&quot;</span>/&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- Windows 8 磁贴颜色 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;msapplication-TileImage&quot;</span> <span class="attr">content</span>=<span class="string">&quot;icon.png&quot;</span>/&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- Windows 8 磁贴图标 --&gt;</span></span><br><span class="line">   </span><br><span class="line"><span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">&quot;alternate&quot;</span> <span class="attr">type</span>=<span class="string">&quot;application/rss+xml&quot;</span> <span class="attr">title</span>=<span class="string">&quot;RSS&quot;</span> <span class="attr">href</span>=<span class="string">&quot;/rss.xml&quot;</span>/&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- 添加 RSS 订阅 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">&quot;shortcut icon&quot;</span> <span class="attr">type</span>=<span class="string">&quot;image/ico&quot;</span> <span class="attr">href</span>=<span class="string">&quot;/favicon.ico&quot;</span>/&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- 添加 favicon icon --&gt;</span></span><br><span class="line">   </span><br><span class="line"><span class="comment">&lt;!-- sns 社交标签 begin --&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- 参考微博API --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">property</span>=<span class="string">&quot;og:type&quot;</span> <span class="attr">content</span>=<span class="string">&quot;类型&quot;</span> /&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">property</span>=<span class="string">&quot;og:url&quot;</span> <span class="attr">content</span>=<span class="string">&quot;URL地址&quot;</span> /&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">property</span>=<span class="string">&quot;og:title&quot;</span> <span class="attr">content</span>=<span class="string">&quot;标题&quot;</span> /&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">property</span>=<span class="string">&quot;og:image&quot;</span> <span class="attr">content</span>=<span class="string">&quot;图片&quot;</span> /&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">property</span>=<span class="string">&quot;og:description&quot;</span> <span class="attr">content</span>=<span class="string">&quot;描述&quot;</span> /&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- sns 社交标签 end --&gt;</span></span><br></pre></td></tr></table></figure></li>
+</ol>
+<h1 id="script的async和defer有什么区别？"><a href="#script的async和defer有什么区别？" class="headerlink" title="script的async和defer有什么区别？"></a>script的async和defer有什么区别？</h1><blockquote>
+<p>浏览器在执行html时如果遇到&lt;script&gt;,就会停止页面渲染而去下载和执行js的文件，直至遇到&lt;/script&gt;，才会继续渲染页面。</p>
+<p>因此浏览器在下载和执行js时会变现为一片空白，为了解决这个问题，ECMAScript定义了defer和async两个属性用于控制js的下载和执行。</p>
+<p>async: 该布尔属性指示浏览器是否在允许的情况下异步执行该脚本。该属性对于内联脚本无用(即没有src属性的脚本)。</p>
+<p>defer：这个布尔属性被设定用来通知浏览器该脚本将在文档完成解析后，触发DOMContentLoaded事件前执行。如果缺少src属性(即内嵌脚本)，该情况下它不起作用。</p>
+</blockquote>
+<h2 id="相同点"><a href="#相同点" class="headerlink" title="相同点"></a>相同点</h2><ul>
+<li><p>加载文件时不阻塞页面渲染</p>
+</li>
+<li><p>对于inline的script都无效，当script标签中有代码时，两个属性都不会起作用</p>
+</li>
+<li><p>使用这两个属性的脚本中不能调用document.write方法</p>
+</li>
+<li><p>有脚本的onload事件回调</p>
+</li>
+</ul>
+<h2 id="不同点"><a href="#不同点" class="headerlink" title="不同点"></a>不同点</h2><ul>
+<li><p>浏览器支持不同：html4.0中定义了defer；html5中定义了async；</p>
+</li>
+<li><p>执行顺序不同：</p>
+<ul>
+<li><p>每一个async属性的脚本都在它下载结束之后立刻执行，同时会在window的load事件之前执行，有可能会出现脚本执行顺序被打乱的情况。</p>
+</li>
+<li><p>每一个defer属性的脚本都是在页面解析完毕之后，按照原本的顺序执行，同时会在document的DOMContentLoaded之前执行。</p>
+</li>
+</ul>
+</li>
+</ul>
+<h1 id="减少dom数量的方法？一次性给你大量的dom如何优化"><a href="#减少dom数量的方法？一次性给你大量的dom如何优化" class="headerlink" title="减少dom数量的方法？一次性给你大量的dom如何优化?"></a>减少dom数量的方法？一次性给你大量的dom如何优化?</h1><h2 id="减少dom数量的方法"><a href="#减少dom数量的方法" class="headerlink" title="减少dom数量的方法"></a>减少dom数量的方法</h2><ul>
+<li><p>使用伪元素，阴影实现的内容尽量不使用DOM实现，如清除浮动，样式实现等</p>
+</li>
+<li><p>按需加载，减少不必要的渲染</p>
+</li>
+<li><p>结构合理，语义化标签</p>
+</li>
+</ul>
+<h2 id="大量dom时的优化"><a href="#大量dom时的优化" class="headerlink" title="大量dom时的优化"></a>大量dom时的优化</h2><blockquote>
+<p>当对dom元素进行一系列操作时，对dom进行访问和修改dom引起的重绘和重排都比较消耗性能，所以操作dom应该从一下几点出发：</p>
+</blockquote>
+<ol>
+<li><p>缓存dom对象</p>
+<p>操作dom一般首先会去访问dom，遇到循环遍历这种时间复杂度较高的操作时，可以在循环之前就将主节点，不必循环的dom节点先获取到，在循环中就可以直接引用，不必去重新查询。</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> rootElem = <span class="variable language_">document</span>.<span class="title function_">querySelector</span>(<span class="string">&#x27;#app&#x27;</span>);</span><br><span class="line"><span class="keyword">let</span> childList = rootElem.<span class="property">child</span>; <span class="comment">// 假设全是dom节点</span></span><br><span class="line"><span class="keyword">for</span>(<span class="keyword">let</span> i = <span class="number">0</span>;i&lt;childList.<span class="property">len</span>;j++)&#123;</span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">    * 根据条件对应操作</span></span><br><span class="line"><span class="comment">    */</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
+<li><p>文档片段</p>
+<p>利用document.createDocumentFragment()方法创建文档碎片节点，创建的是一个虚拟的节点对象。</p>
+<p>向这个节点添加dom节点，修改dom节点并不会影响到真实的dom结构。</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> fragment = <span class="variable language_">document</span>.<span class="title function_">createDocumentFragment</span>();</span><br><span class="line"><span class="keyword">const</span> <span class="title function_">operationDomHandle</span> = (<span class="params">fragment</span>) =&gt;&#123;</span><br><span class="line">    <span class="comment">// 操作 </span></span><br><span class="line">&#125;</span><br><span class="line"><span class="title function_">operationDomHandle</span>(fragment);</span><br><span class="line"><span class="comment">// 然后最后再替换  </span></span><br><span class="line">rootElem.<span class="title function_">replaceChild</span>(fragment,oldDom);</span><br></pre></td></tr></table></figure>
+
+<p>如果要对元素进行复杂的操作(删减，添加子节点)，应该先将元素从页面移除，然后再对其进行操作。</p>
+<p>或者将其复制一个(cloneNode())，在内存中进行操作后再替换原来的节点。</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> clone=old.<span class="title function_">cloneNode</span>(<span class="literal">true</span>);</span><br><span class="line"><span class="title function_">operationDomHandle</span>(clone);</span><br><span class="line">rootElem.<span class="title function_">replaceChild</span>(clone,oldDom)</span><br></pre></td></tr></table></figure></li>
+<li><p>用innerHtml代替高频的appendChild</p>
+</li>
+<li><p>最优的layout方案</p>
+<img src="https://tva1.sinaimg.cn/large/008vxvgGly1h8s8sm5jlbj30bf03s0sx.jpg"></li>
+<li><p>虚拟DOM</p>
+<img src="https://tva1.sinaimg.cn/large/008vxvgGly1h8s8swibmwj30ba063t97.jpg"></li>
+</ol>
+<img src="https://tva1.sinaimg.cn/large/008vxvgGly1h8s92fvrghg30wr0u0aai.gif">   
+
+
+
+
+
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="http://example.com">张禹</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="http://example.com/2022/12/05/html%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B4%E2%80%94%E2%80%94html%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A/">http://example.com/2022/12/05/html%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B4%E2%80%94%E2%80%94html%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="http://example.com" target="_blank">张禹的个人博客</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/html/">html</a></div><div class="post_share"><div class="social-share" data-image="https://images.pexels.com/photos/270404/pexels-photo-270404.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=800" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="next-post pull-full"><a href="/2022/12/04/html%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B3%E2%80%94%E2%80%94html5%E6%96%B0%E5%86%85%E5%AE%B9/"><img class="next-cover" src="https://images.pexels.com/photos/11035371/pexels-photo-11035371.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=800" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">html从零开始3——html5新内容</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><div><a href="/2022/12/04/html%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B2%E2%80%94%E2%80%94html%E8%A1%A8%E6%A0%BC%E3%80%81%E8%A1%A8%E5%8D%95%E5%92%8C%E5%88%97%E8%A1%A8/" title="html从零开始2——html表格&#x2F;表单和列表"><img class="cover" src="https://images.pexels.com/photos/733852/pexels-photo-733852.jpeg?auto=compress&cs=tinysrgb&w=800" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-12-04</div><div class="title">html从零开始2——html表格&#x2F;表单和列表</div></div></a></div><div><a href="/2022/12/04/html%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B3%E2%80%94%E2%80%94html5%E6%96%B0%E5%86%85%E5%AE%B9/" title="html从零开始3——html5新内容"><img class="cover" src="https://images.pexels.com/photos/11035371/pexels-photo-11035371.jpeg?auto=compress&cs=tinysrgb&w=800" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-12-04</div><div class="title">html从零开始3——html5新内容</div></div></a></div><div><a href="/2022/12/04/html%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B1%E2%80%94%E2%80%94html%E5%88%9D%E8%AF%86%E5%92%8C%E5%B8%B8%E7%94%A8%E6%A0%87%E7%AD%BE/" title="html从零开始1——html初识和常用标签"><img class="cover" src="https://images.pexels.com/photos/1591061/pexels-photo-1591061.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-12-04</div><div class="title">html从零开始1——html初识和常用标签</div></div></a></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">张禹</div><div class="author-info__description">记录菜鸡开发的成长点滴</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">4</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">1</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">1</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/zy19961201" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="mailto:13640015624@163.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E8%AF%B7%E8%AF%B4%E6%98%8Ehtml%E5%B8%83%E5%B1%80%E5%85%83%E7%B4%A0%E7%9A%84%E5%88%86%E7%B1%BB%E6%9C%89%E5%93%AA%E4%BA%9B%EF%BC%9F%E6%8F%8F%E8%BF%B0%E6%AF%8F%E7%A7%8D%E5%B8%83%E5%B1%80%E5%85%83%E7%B4%A0%E7%9A%84%E5%BA%94%E7%94%A8%E5%9C%BA%E6%99%AF%EF%BC%9F"><span class="toc-number">1.</span> <span class="toc-text">请说明html布局元素的分类有哪些？描述每种布局元素的应用场景？</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%88%86%E7%B1%BB"><span class="toc-number">1.1.</span> <span class="toc-text">分类</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%BA%94%E7%94%A8%E5%9C%BA%E6%99%AF"><span class="toc-number">1.2.</span> <span class="toc-text">应用场景</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#html%E6%A0%87%E7%AD%BEb%E5%92%8Cstrong%E7%9A%84%E5%8C%BA%E5%88%AB%EF%BC%9F"><span class="toc-number">2.</span> <span class="toc-text">html标签b和strong的区别？</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%BB%80%E4%B9%88%E6%98%AF%E8%AF%AD%E4%B9%89%E5%8C%96%EF%BC%9F%E4%BD%A0%E5%B9%B3%E5%B8%B8%E6%80%8E%E4%B9%88%E5%81%9A%E6%9D%A5%E4%BF%9D%E8%AF%81%E8%AF%AD%E4%B9%89%E5%8C%96%EF%BC%9F%E8%AF%B4%E8%AF%B4%E4%BD%A0%E4%BA%86%E8%A7%A3%E7%9A%84html5%E8%AF%AD%E4%B9%89%E5%8C%96%E6%A0%87%E7%AD%BE%EF%BC%9F"><span class="toc-number">3.</span> <span class="toc-text">什么是语义化？你平常怎么做来保证语义化？说说你了解的html5语义化标签？</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#HTML%E8%AF%AD%E4%B9%89%E5%8C%96"><span class="toc-number">3.1.</span> <span class="toc-text">HTML语义化</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#html%E8%AF%AD%E4%B9%89%E5%8C%96%E4%BC%98%E7%82%B9"><span class="toc-number">3.2.</span> <span class="toc-text">html语义化优点</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#html5%E6%96%B0%E5%A2%9E%E8%AF%AD%E4%B9%89%E5%85%83%E7%B4%A0"><span class="toc-number">3.3.</span> <span class="toc-text">html5新增语义元素</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%A6%82%E4%BD%95%E8%AF%AD%E4%B9%89%E5%8C%96"><span class="toc-number">3.4.</span> <span class="toc-text">如何语义化</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#html5%E6%9C%89%E5%93%AA%E4%BA%9B%E6%96%B0%E7%89%B9%E6%80%A7%EF%BC%9F%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86html5%E6%96%B0%E6%A0%87%E7%AD%BE%E7%9A%84%E6%B5%8F%E8%A7%88%E5%99%A8%E5%85%BC%E5%AE%B9%E9%97%AE%E9%A2%98%EF%BC%9F%E5%A6%82%E4%BD%95%E5%8C%BA%E5%88%86html%E5%92%8Chtml5%EF%BC%9F"><span class="toc-number">4.</span> <span class="toc-text">html5有哪些新特性？如何处理html5新标签的浏览器兼容问题？如何区分html和html5？</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#html5%E6%96%B0%E7%89%B9%E6%80%A7"><span class="toc-number">4.1.</span> <span class="toc-text">html5新特性</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#html5%E5%85%BC%E5%AE%B9%E6%80%A7%E9%97%AE%E9%A2%98%E5%A4%84%E7%90%86"><span class="toc-number">4.2.</span> <span class="toc-text">html5兼容性问题处理</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%A6%82%E4%BD%95%E5%8C%BA%E5%88%86html%E5%92%8Chtml5"><span class="toc-number">4.3.</span> <span class="toc-text">如何区分html和html5</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#a%E6%A0%87%E7%AD%BE%E9%BB%98%E8%AE%A4%E4%BA%8B%E4%BB%B6%E8%A2%AB%E7%A6%81%E6%AD%A2%E4%B9%8B%E5%90%8E%E5%81%9A%E4%BA%86%E4%BB%80%E4%B9%88%E6%89%8D%E5%AE%9E%E7%8E%B0%E4%BA%86%E8%B7%B3%E8%BD%AC%EF%BC%9F"><span class="toc-number">5.</span> <span class="toc-text">a标签默认事件被禁止之后做了什么才实现了跳转？</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%BB%98%E8%AE%A4%E4%BA%8B%E4%BB%B6%E7%A6%81%E6%AD%A2%E4%B9%8B%E5%90%8E%E5%AE%9E%E7%8E%B0%E8%B7%B3%E8%BD%AC%E7%9A%84%E6%96%B9%E5%BC%8F"><span class="toc-number">5.1.</span> <span class="toc-text">默认事件禁止之后实现跳转的方式</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%BD%91%E7%AB%99SEO%E6%80%8E%E4%B9%88%E5%A4%84%E7%90%86%EF%BC%9F"><span class="toc-number">6.</span> <span class="toc-text">网站SEO怎么处理？</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86"><span class="toc-number">6.1.</span> <span class="toc-text">搜索引擎工作原理</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%89%8D%E7%AB%AFSEO%E8%A7%84%E8%8C%83%E7%AE%80%E6%B4%81%E7%89%88"><span class="toc-number">6.2.</span> <span class="toc-text">前端SEO规范简洁版</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#meta%E5%85%83%E7%B4%A0%E9%83%BD%E6%9C%89%E4%BB%80%E4%B9%88%EF%BC%9F"><span class="toc-number">7.</span> <span class="toc-text">meta元素都有什么？</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%85%83%E6%95%B0%E6%8D%AE"><span class="toc-number">7.1.</span> <span class="toc-text">元数据</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#meta%E5%85%83%E7%B4%A0"><span class="toc-number">7.2.</span> <span class="toc-text">meta元素</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#meta%E5%85%83%E7%B4%A0%E5%9B%9B%E5%A4%A7%E5%B1%9E%E6%80%A7"><span class="toc-number">7.3.</span> <span class="toc-text">meta元素四大属性</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#meta%E5%85%83%E7%B4%A0%E7%9A%84%E4%BD%BF%E7%94%A8"><span class="toc-number">7.4.</span> <span class="toc-text">meta元素的使用</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#script%E7%9A%84async%E5%92%8Cdefer%E6%9C%89%E4%BB%80%E4%B9%88%E5%8C%BA%E5%88%AB%EF%BC%9F"><span class="toc-number">8.</span> <span class="toc-text">script的async和defer有什么区别？</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%9B%B8%E5%90%8C%E7%82%B9"><span class="toc-number">8.1.</span> <span class="toc-text">相同点</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%8D%E5%90%8C%E7%82%B9"><span class="toc-number">8.2.</span> <span class="toc-text">不同点</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%87%8F%E5%B0%91dom%E6%95%B0%E9%87%8F%E7%9A%84%E6%96%B9%E6%B3%95%EF%BC%9F%E4%B8%80%E6%AC%A1%E6%80%A7%E7%BB%99%E4%BD%A0%E5%A4%A7%E9%87%8F%E7%9A%84dom%E5%A6%82%E4%BD%95%E4%BC%98%E5%8C%96"><span class="toc-number">9.</span> <span class="toc-text">减少dom数量的方法？一次性给你大量的dom如何优化?</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%87%8F%E5%B0%91dom%E6%95%B0%E9%87%8F%E7%9A%84%E6%96%B9%E6%B3%95"><span class="toc-number">9.1.</span> <span class="toc-text">减少dom数量的方法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%A4%A7%E9%87%8Fdom%E6%97%B6%E7%9A%84%E4%BC%98%E5%8C%96"><span class="toc-number">9.2.</span> <span class="toc-text">大量dom时的优化</span></a></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2022/12/05/html%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B4%E2%80%94%E2%80%94html%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A/" title="html从零开始4——html必知必会"><img src="https://images.pexels.com/photos/270404/pexels-photo-270404.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=800" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="html从零开始4——html必知必会"/></a><div class="content"><a class="title" href="/2022/12/05/html%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B4%E2%80%94%E2%80%94html%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A/" title="html从零开始4——html必知必会">html从零开始4——html必知必会</a><time datetime="2022-12-04T16:38:00.000Z" title="发表于 2022-12-05 00:38:00">2022-12-05</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/12/04/html%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B3%E2%80%94%E2%80%94html5%E6%96%B0%E5%86%85%E5%AE%B9/" title="html从零开始3——html5新内容"><img src="https://images.pexels.com/photos/11035371/pexels-photo-11035371.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=800" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="html从零开始3——html5新内容"/></a><div class="content"><a class="title" href="/2022/12/04/html%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B3%E2%80%94%E2%80%94html5%E6%96%B0%E5%86%85%E5%AE%B9/" title="html从零开始3——html5新内容">html从零开始3——html5新内容</a><time datetime="2022-12-04T15:52:00.000Z" title="发表于 2022-12-04 23:52:00">2022-12-04</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/12/04/html%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B2%E2%80%94%E2%80%94html%E8%A1%A8%E6%A0%BC%E3%80%81%E8%A1%A8%E5%8D%95%E5%92%8C%E5%88%97%E8%A1%A8/" title="html从零开始2——html表格/表单和列表"><img src="https://images.pexels.com/photos/733852/pexels-photo-733852.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=800" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="html从零开始2——html表格/表单和列表"/></a><div class="content"><a class="title" href="/2022/12/04/html%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B2%E2%80%94%E2%80%94html%E8%A1%A8%E6%A0%BC%E3%80%81%E8%A1%A8%E5%8D%95%E5%92%8C%E5%88%97%E8%A1%A8/" title="html从零开始2——html表格/表单和列表">html从零开始2——html表格/表单和列表</a><time datetime="2022-12-04T14:55:00.000Z" title="发表于 2022-12-04 22:55:00">2022-12-04</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/12/04/html%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B1%E2%80%94%E2%80%94html%E5%88%9D%E8%AF%86%E5%92%8C%E5%B8%B8%E7%94%A8%E6%A0%87%E7%AD%BE/" title="html从零开始1——html初识和常用标签"><img src="https://images.pexels.com/photos/1591061/pexels-photo-1591061.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=2" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="html从零开始1——html初识和常用标签"/></a><div class="content"><a class="title" href="/2022/12/04/html%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B1%E2%80%94%E2%80%94html%E5%88%9D%E8%AF%86%E5%92%8C%E5%B8%B8%E7%94%A8%E6%A0%87%E7%AD%BE/" title="html从零开始1——html初识和常用标签">html从零开始1——html初识和常用标签</a><time datetime="2022-12-04T14:00:00.000Z" title="发表于 2022-12-04 22:00:00">2022-12-04</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2022 By 张禹</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.min.js"></script><div class="js-pjax"></div><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/activate-power-mode.min.js"></script><script>POWERMODE.colorful = true;
+POWERMODE.shake = true;
+POWERMODE.mobile = false;
+document.body.addEventListener('input', POWERMODE);
+</script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
